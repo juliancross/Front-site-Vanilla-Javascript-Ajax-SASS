@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Julian</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="cross">
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="home">
+        <ul>
+            <li><a href="#accueil" class="focus">Accueil</a></li>
+            <li><a href="#savoir">En savoir +</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="pictureMenu">
+            <div class='redPic'></div>
+        </div>
+        <div class="containMenu">
+            <div class="containAcceuil active" id='accueil'>
+                <h1>Julian</h1>
+                <h2>Développeur Front-End</h2>
+            </div>
+            <div class="containSavoir" id='savoir'>
+                <h1>Passion, ambition, création</h1>
+                <p>Issu du milieu du sport et de la communication, j'ai toujours cherché à faire en sorte que ma vie professionelle et mes passions cohabitent. Passionné par mon métier, j'aborde avec beaucoup de plaisir et d'ambition les projets sur lesquels
+                    je travaille.
+                </p>
+                <p>Le développeur Front-End est l'un des garants du fonctionnement technique des sites internet et des applications web, il s'engage à respecter le design, l'ergonomie, et la compatiblité des différents navigateurs. Il doit également être
+                    capable d'intégrer les différentes technologies au moment opportun.</p>
+                <p>Ma philosophie et mon enseignement m'ont sensiblisé à l'écologie et à la responsabilité des développeurs. Le saviez vous peut-être, chaque jour l'informatique crée du gaz à effet de serre... À notre échelle nous devons en être conscient
+                    et encourager la pratique à l'utile.
+            </div>
+            <div class="containCompetences" id='competences'>
+                <h1>Compétences</h1>
+                <div>
+                    <ul>
+                        <li><img src="images/html.png" alt="logo HTML">HTML</li>
+                        <li><img src="images/javascript.png" alt="logo JAVASCRIPT">JAVASCRIPT</li>
+                        <li><img src="images/sass.png" alt="logo SASS">SASS</li>
+                        <li><img src="images/angular.png" alt="logo ANGULAR">ANGULAR</li>
+                    </ul>
+                    <ul>
+                        <li><img src="images/css.png" alt="logo CSS">CSS</li>
+                        <li><img src="images/jquery.png" alt="logo JQUERY">JQUERY</li>
+                        <li><img src="images/ajax.png" alt="logo AJAX"> AJAX</li>
+                        <li><img src="images/wordpress.png" alt="logo WORDPRESS">WORDPRESS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class='containContact' id='contact'>
+                <h1>Contact</h1>
+                <!-- <p>N'hésitez pas à me contacter</p> -->
+                <form action="getForm.php" method="POST">
+                    <div>
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" class="input">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="input">
+                    </div>
+                    <div>
+                        <label for="texta">Votre message</label>
+                        <textarea id="texta" name='message' class="input"></textarea>
+                    </div>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+
+</html>
